@@ -1,0 +1,88 @@
+html, body {
+margin: 0;
+padding: 0;
+height: 100%;
+}
+body {
+background-color: #333642;
+//background-image: url(images/background.png);
+background-repeat: no-repeat;
+font-family: 'Helvetica LT Std', Helvetica, sans-serif;
+color: #323646;
+}
+a,
+.fakeLink {
+color: #505670;
+text-decoration: underline;
+cursor: pointer;
+}
+@font-face {
+  font-family: ian;
+  src: url(fonts/roadgeek/roadgeek.ttf)
+}
+.title {
+  font-family: ian;
+  color: white !important;
+  font-size: 250%;
+  text-decoration: none;
+}
+.menu {
+  font-family: ian;
+  color: white !important;
+  font-size: 120%;
+  padding-right: 6px;
+  padding-top: 6px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.menuInverted {
+  font-family: ian;
+  color: #333642 !important;
+  font-size: 120%;
+  padding-right: 6px;
+  padding-top: 6px;
+  text-decoration: none;
+}
+.homeTable {
+width: 100%;
+height: 100%;
+border-collapse: collapse;
+}
+.homeTable td.titleCell {
+text-align: center;
+vertical-align: middle;
+}
+.homeTable td.navCell {
+vertical-align: bottom;
+}
+.homeTable td.navCell,
+.halfWidth,
+.navContainer {
+height: 60px;
+max-height: 60px;
+min-height: 60px;
+}
+.halfWidth {
+position: relative;
+width: 50%;
+}
+.navContainer {
+position: absolute;
+width: 640px;
+right: -320px;
+top: 0;
+color: white;
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+}
+.navContainer a {
+color: #eee;
+text-decoration: none;
+}
+.navContainer span {
+padding: 0 15px;
+letter-spacing: 4px;
+text-transform: uppercase;
+cursor: pointer;
+}
